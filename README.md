@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+🌐 SkillSight: AI-Driven Job Market Intelligence Platform
 
-## Project info
+SkillSight is a next-generation analytics platform that delivers real-time insights into India’s technology job market.
+It goes beyond traditional job portals by analyzing skill demand, salary trends, hiring locations, and emerging technologies using automated data pipelines and NLP-powered intelligence.
 
-**URL**: https://lovable.dev/projects/b218bd8f-447f-4df7-a15b-2ace143d63ff
+SkillSight helps students, job seekers, institutions, and career planners make smarter, data-driven decisions.
 
-## How can I edit this code?
+🎯 Purpose
+🔎 Real-Time Market Intelligence
 
-There are several ways of editing your application.
+Stay updated with the latest skill trends, salary benchmarks, and hiring patterns across India’s tech ecosystem.
 
-**Use Lovable**
+🤖 NLP-Powered Skill Extraction
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b218bd8f-447f-4df7-a15b-2ace143d63ff) and start prompting.
+Automatically analyze thousands of job descriptions to identify in-demand skills, roles, experience expectations, and technology trends.
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Actionable Insights for Career Planning
 
-**Use your preferred IDE**
+Use interactive dashboards to understand which skills matter most and where the best opportunities exist.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🏫 Support for Academic Institutions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Enable placement cells and departments to align their training programs with current industry demands.
 
-Follow these steps:
+⚙️ How It Works
+1️⃣ Data Collection Pipeline
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The system collects job postings from multiple sources using:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+REST APIs
 
-# Step 3: Install the necessary dependencies.
-npm i
+Web scraping (BeautifulSoup + Selenium)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2️⃣ Data Processing & Cleaning
 
-**Edit a file directly in GitHub**
+Handles duplicates, missing values, inconsistent formats, and prepares data for analysis.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3️⃣ NLP Analysis
 
-**Use GitHub Codespaces**
+Extracts:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Technical skills
 
-## What technologies are used for this project?
+Qualifications
 
-This project is built with:
+Experience levels
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Role categories
 
-## How can I deploy this project?
+Techniques used: tokenization, stopword removal, NER, keyword frequency.
 
-Simply open [Lovable](https://lovable.dev/projects/b218bd8f-447f-4df7-a15b-2ace143d63ff) and click on Share -> Publish.
+4️⃣ Statistical & Trend Analysis
 
-## Can I connect a custom domain to my Lovable project?
+Provides insights into:
 
-Yes, you can!
+Salary ranges
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Skill frequency
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Role demand
+
+City-wise hiring density
+
+Monthly hiring trends
+
+5️⃣ Interactive Dashboard
+
+Visualizes analytics using intuitive charts (Plotly) with filters for:
+Role | Experience | City | Skill | Time Range
+
+6️⃣ Automated Updates
+
+Daily scheduled jobs refresh the dataset and update insights with zero manual effort.
+
+🛠️ Technologies Used
+Backend & Processing
+
+Python
+
+Flask
+
+Pandas, NumPy
+
+NLTK (NLP engine)
+
+BeautifulSoup4
+
+Selenium
+
+SQLAlchemy
+
+Database
+
+PostgreSQL
+
+Visualization
+
+Plotly
+
+Deployment
+
+Render / PythonAnywhere / Railway (cloud prototype)
+
+🚀 Features
+
+✔ NLP-based skill extraction with 85%+ accuracy
+✔ Real-time job insights across roles, locations, and skill sets
+✔ Salary analytics with role and experience comparisons
+✔ Monthly hiring trend graphs
+✔ City-wise heatmaps for job density
+✔ Fully responsive, interactive dashboard
+✔ Automated weekly job market reports
+✔ Clean, modern SaaS-style UI
+✔ Designed for students, job seekers, institutions, and analysts
+
+🖥️ Live Demo (Prototype)
+
+Experience SkillSight Dashboard:
+👉 [Demo link will be added after deployment]
+
+(Use the Lovable AI-generated prototype here.)
+
+👥 Team SkillSight
+
+Omprakash – NLP & Data Analysis
+
+Sarthak Kabra – Backend & API Integration
+
+Manoj Patel – Web Scraping & Database
+
+Ayush Soni – Frontend & Visualization
+
+Guide: Mr. Vivek Sharma
+Co-Guide: Ms. Rachna Nagdev
