@@ -123,10 +123,10 @@ export default function Team() {
                       <a href="#" className="p-2 rounded-lg hover:bg-secondary transition-colors">
                         <Github className="w-4 h-4 text-muted-foreground hover:text-foreground" />
                       </a>
-                      <a href="#" className="p-2 rounded-lg hover:bg-secondary transition-colors">
+                      <a href="https://github.com/opmeenaji81" className="p-2 rounded-lg hover:bg-secondary transition-colors">
                         <Linkedin className="w-4 h-4 text-muted-foreground hover:text-foreground" />
                       </a>
-                      <a href="#" className="p-2 rounded-lg hover:bg-secondary transition-colors">
+                      <a href="https://www.linkedin.com/in/opmeenaji/" className="p-2 rounded-lg hover:bg-secondary transition-colors">
                         <Mail className="w-4 h-4 text-muted-foreground hover:text-foreground" />
                       </a>
                     </div>
