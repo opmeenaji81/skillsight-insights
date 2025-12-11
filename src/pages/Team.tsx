@@ -120,13 +120,13 @@ export default function Team() {
                     
                     {/* Social Links */}
                     <div className="flex justify-center gap-3">
-                      <a href="#" className="p-2 rounded-lg hover:bg-secondary transition-colors">
+                      <a href="https://github.com/opmeenaji81" className="p-2 rounded-lg hover:bg-secondary transition-colors">
                         <Github className="w-4 h-4 text-muted-foreground hover:text-foreground" />
                       </a>
-                      <a href="https://github.com/opmeenaji81" className="p-2 rounded-lg hover:bg-secondary transition-colors">
+                      <a href="https://www.linkedin.com/in/opmeenaji/" className="p-2 rounded-lg hover:bg-secondary transition-colors">
                         <Linkedin className="w-4 h-4 text-muted-foreground hover:text-foreground" />
                       </a>
-                      <a href="https://www.linkedin.com/in/opmeenaji/" className="p-2 rounded-lg hover:bg-secondary transition-colors">
+                      <a href="opmeenaji81@gmail.com" className="p-2 rounded-lg hover:bg-secondary transition-colors">
                         <Mail className="w-4 h-4 text-muted-foreground hover:text-foreground" />
                       </a>
                     </div>
