@@ -1,0 +1,4 @@
+title,company,location,salary_text,description,url,posted_date,skills
+Junior Python Developer,TestCo,Bangalore,3-4 LPA,"Write python scripts for ETL and reporting","http://example.com/job1",2025-11-01,python;sql;pandas
+Data Analyst,DataCorp,Pune,4-6 LPA,"Analyze data and prepare dashboards","http://example.com/job2",2025-10-15,sql;excel;power bi
+Machine Learning Engineer,AIWorks,Bengaluru,12-18 LPA,"Train ML models and productionize","http://example.com/job3",2025-09-20,python;pytorch;ml
